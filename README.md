@@ -23,8 +23,6 @@ O ClosetShare conecta quem tem roupas paradas a quem prefere acessar moda por al
 - CSS responsivo
 - Supabase / PostgreSQL / Auth / Storage / RLS
 
-A integração segue o padrão atual recomendado pelo Supabase: `@supabase/supabase-js`, `VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY`. citeturn0search0turn0search9
-
 ## Rodando localmente
 
 ```bash
@@ -43,7 +41,7 @@ npm run build
 1. Crie um projeto no Supabase.
 2. Copie a URL e a publishable key para um `.env.local` a partir do `.env.example`.
 3. Execute `supabase/migrations/20260911032000_closetshare_core.sql` no SQL Editor ou através do fluxo de migrations do Supabase.
-4. Não coloque chaves secretas no browser ou no GitHub. A chave publicável só deve acessar dados protegidos por RLS. citeturn0search4turn0search8
+4. Não coloque chaves secretas no browser ou no GitHub. A chave publicável só deve acessar dados protegidos por RLS.
 
 ## Próximas fases
 
