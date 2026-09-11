@@ -1,4 +1,4 @@
-import { supabase } from './supabaseClient'
+import { supabase } from './supabase'
 
 export async function sendMagicLink(email: string) {
   if (!supabase) return { error: new Error('Supabase ainda não foi configurado.') }
